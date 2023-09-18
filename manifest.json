@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Web Design Disruptor",
     "version": "1.0",
-    "description": "this is a Chrome extension that will randomly visually disrupt an HTML page by randomly applying css animations from a list to all HTML elements & child elements",
+    "description": "Web Design Disruptor is a Chrome extension that will visually disrupt an HTML page by randomly applying css animations from a list to all HTML elements & all child elements",
     "icons": {
       "16": "icons/web-design-disruptor-icon-16.png",
       "48": "icons/web-design-disruptor-icon-48.png",
