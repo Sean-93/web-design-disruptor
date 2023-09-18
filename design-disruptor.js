@@ -1,11 +1,14 @@
 window.onload = function () {
     // GETTING ANIMATION CLASSES
     const animations = [
-        "slide-in-left-repeated",
+        "slide-in-left",
+        "slide-in-right",
         "pulse-slow",
-        "rotate-fast",
+        "rotate",
+        "rotate-backwards",
         "bounce-slow",
-        "scale-up-down"
+        "scale-up-down",
+        "scale-down-up"
     ];
 
     // APPLIES ANIMATION CLASSES RADNOMLY TO ALL ELEMENTS AND CHILD ELEMENTS

@@ -1,8 +1,8 @@
-@keyframes slideInLeftRepeated {
+@keyframes slideInLeft {
 
     0%,
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 
     50% {
@@ -10,9 +10,26 @@
     }
 }
 
-.slide-in-left-repeated {
-    animation: slideInLeftRepeated 50s infinite;
+.slide-in-left {
+    animation: slideInLeft 50s infinite;
 }
+
+@keyframes slideInRight {
+
+    0%,
+    100% {
+        transform: translateX(50%);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+}
+
+.slide-in-right {
+    animation: slideInRight 50s infinite;
+}
+
 
 @keyframes pulseSlow {
 
@@ -30,7 +47,7 @@
     animation: pulseSlow 40s infinite;
 }
 
-@keyframes rotate360Fast {
+@keyframes rotate360 {
     0% {
         transform: rotate(0deg);
     }
@@ -40,8 +57,22 @@
     }
 }
 
-.rotate-fast {
-    animation: rotate360Fast 30s infinite;
+.rotate {
+    animation: rotate360 30s infinite;
+}
+
+@keyframes rotateNegative360 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.rotate-backwards {
+    animation: rotateNegative360 30s infinite;
 }
 
 @keyframes bounceSlow {
@@ -75,10 +106,26 @@
     }
 
     50% {
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
 }
 
 .scale-up-down {
     animation: scaleUpDown 15s infinite;
+}
+
+@keyframes scaleDownUp {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(.75);
+    }
+}
+
+.scale-down-up {
+    animation: scaleDownUp 15s infinite;
 }
