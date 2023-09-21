@@ -1,8 +1,6 @@
 window.onload = function () {
     // GETTING ANIMATION CLASSES
     const animations = [
-        "slide-in-left",
-        "slide-in-right",
         "pulse-slow",
         "rotate",
         "rotate-backwards",
