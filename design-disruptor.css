@@ -2,7 +2,7 @@
 
     0%,
     100% {
-        transform: translateX(-10%);
+        transform: translateX(-1%);
     }
 
     50% {
@@ -18,7 +18,7 @@
 
     0%,
     100% {
-        transform: translateX(10%);
+        transform: translateX(1%);
     }
 
     50% {
@@ -53,7 +53,7 @@
     }
 
     100% {
-        transform: rotate(45deg);
+        transform: rotate(22.5deg);
     }
 }
 
@@ -67,7 +67,7 @@
     }
 
     100% {
-        transform: rotate(-45deg);
+        transform: rotate(-22.5deg);
     }
 }
 
@@ -86,11 +86,11 @@
     }
 
     40% {
-        transform: translateY(-20px);
+        transform: translateY(-1em);
     }
 
     60% {
-        transform: translateY(-10px);
+        transform: translateY(-1em);
     }
 }
 
